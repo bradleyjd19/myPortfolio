@@ -7,20 +7,33 @@ body {
   height: 100%;
   background-color: black;
   color: white;
+  font-weight: bold;
 }
 
 #row-tagline,
-#row-intro {
+#row-repeat{
   text-align: center;
   margin-top: 50px;
+}
+
+#row-intro {
+  text-align: center;
+  margin-top: 100px;
 }
 
 #tagline1,
 #tagline2,
 #tagline3,
+#tagline4,
 #intro {
   opacity: 0;
-  transition: 4s opacity;
+  transition: 3s opacity;
   font-size:32px;
   color: white;
+}
+
+#name {
+  color: red;
+  font-size: 48px;
+  font-weight: 500;
 }
