@@ -10,26 +10,17 @@ body {
 }
 
 #row-tagline,
-#row-intro,
-#row-motto {
+#row-intro {
   text-align: center;
-}
-
-#row-tagline {
   margin-top: 50px;
 }
 
 #tagline1,
 #tagline2,
-#tagline3 {
+#tagline3,
+#intro {
   opacity: 0;
   transition: 4s opacity;
-  text-align: center;
   font-size:32px;
   color: white;
-}
-
-#row-intro,
-#row-motto {
-  margin-top: 25px;
 }
