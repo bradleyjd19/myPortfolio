@@ -18,13 +18,15 @@ body {
 
 #row-intro {
   text-align: center;
-  margin-top: 200px;
+  margin-top: 125px;
 }
 
 #tagline1,
 #tagline2,
 #tagline3,
 #tagline4,
+#preName,
+#postName,
 #intro {
   opacity: 0;
   transition: 3s opacity;
