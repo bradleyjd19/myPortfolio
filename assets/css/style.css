@@ -5,20 +5,26 @@
 
 body {
   height: 100%;
-  background-color: black;
+  background-image: url("../images/background.png");
+  background-size: cover;
   color: white;
-  font-weight: bold;
+  font-weight: 600;
 }
 
 #row-tagline,
 #row-repeat{
   text-align: center;
-  margin-top: 50px;
+  margin-top: 25px;
+  clear: both;
+}
+
+#row-repeat {
+  margin-top: 60px;
 }
 
 #row-intro {
   text-align: center;
-  margin-top: 125px;
+  margin-top: 70px;
 }
 
 #tagline1,
@@ -30,12 +36,61 @@ body {
 #intro {
   opacity: 0;
   transition: 3s opacity;
-  font-size:32px;
+  font-size: 32px;
   color: white;
+}
+
+#container-header {
+  overflow: hidden;
+}
+
+#header-nav {
+  opacity: 0;
+  transition: 3s opacity;
+  margin-right: 5%;
+  margin-top: 2%;
+}
+
+#about,
+#projects,
+#contact {
+  float: right;
+  font-size: 30px;
+  padding-right: 40px;
+  padding-left: 40px;
 }
 
 #name {
   color: red;
-  font-size: 48px;
+  font-size: 60px;
   font-weight: 500;
+}
+
+footer {
+  border-top: 2px solid white;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background-color: black;
+}
+
+a {
+  color: white;  
+}
+
+a:hover {
+  color: red;
+  text-decoration: none;
+}
+
+#footer-links {
+  line-height: 20px;
+}
+
+#footer-email,
+#footer-phone {
+  float: right;
+  clear: right;
 }

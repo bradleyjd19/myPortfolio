@@ -7,9 +7,10 @@ window.onload = function () {
   setTimeout(function() {fadein("intro")}, 8500);
   setTimeout(function() {fadein("postName")}, 8500);
   setTimeout(fadeout, 12000);
+  setTimeout(showLinks, 15000);
 }
 
-function fadein(line) {
+function fadein(line) { 
   document.getElementById(line).style.opacity = "1";
 }
 
@@ -20,4 +21,8 @@ function fadeout() {
   document.getElementById("tagline4").style.opacity = "0";
   document.getElementById("preName").style.opacity = "0";
   document.getElementById("postName").style.opacity = "0";
+}
+
+function showLinks() {
+  document.getElementById("header-nav").style.opacity = "1";
 }
