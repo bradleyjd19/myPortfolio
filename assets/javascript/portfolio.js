@@ -24,5 +24,5 @@ function fadeout() {
 }
 
 function showLinks() {
-  document.getElementById("header-nav").style.opacity = "1";
+  document.getElementById("container-header").style.opacity = "1";
 }
