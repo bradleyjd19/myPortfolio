@@ -8,6 +8,7 @@ body {
   background-color: rgb(50, 55, 59);
   color: white;
   font-weight: 600;
+  margin-bottom: 100px;
 }
 
 #row-tagline,
@@ -52,7 +53,6 @@ body {
 
 #header-nav,
 #header-pages {
-  margin-right: 5%;
   margin-top: 2%;
 }
 
@@ -62,7 +62,7 @@ body {
   float: left;
   width: 100px;
   text-align: center;
-  font-size: 20px;
+  font-size: 24px;
   padding-right: 15px;
   padding-left: 15px;
 }
