@@ -93,6 +93,37 @@ button:focus {
   margin: 0 auto;
 }
 
+.fa-angle-left,
+.fa-angle-right {
+  color: red;
+}
+
+.carousel-indicators li {
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+  background-color: red;
+  margin: 0 10px;
+}
+
+#complement,
+#portfolio,
+#giftastic,
+#trivia,
+#crystals,
+#codeBlock {
+  text-align: center;
+  margin-top: 10px;
+}
+
+#title {
+  font-size: 24px;
+}
+
+#codeBlock {
+  font-size: 20px;
+}
+
 #name {
   color: red;
   font-size: 60px;
