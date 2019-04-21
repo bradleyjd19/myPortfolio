@@ -13,17 +13,17 @@ body {
 #row-tagline,
 #row-repeat{
   text-align: center;
-  margin-top: 25px;
+  margin-top: 20px;
   clear: both;
 }
 
 #row-repeat {
-  margin-top: 60px;
+  margin-top: 30px;
 }
 
 #row-intro {
   text-align: center;
-  margin-top: 70px;
+  margin-top: 40px;
 }
 
 #tagline1,
@@ -35,7 +35,7 @@ body {
 #intro {
   opacity: 0;
   transition: 3s opacity;
-  font-size: 32px;
+  font-size: 28px;
   color: white;
 }
 
