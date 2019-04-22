@@ -27,10 +27,16 @@ function showLinks() {
   document.getElementById("container-header").style.opacity = "1";
 }
 
-$(document).on("click", "#projects", hideTags);
+$(document).on("click", ".btn", hideContent);
 
-function hideTags() {
-  $("#tagline1").hide();
-  $("#tagline2").hide();
-  $("#tagline3").hide();
+function hideContent() {
+  $("#container-content").hide();
+}
+
+$("#formSubmit").on("click", clearForm);
+
+function clearForm() {
+  $("#formName").val("");
+  $("#formEmail").val("");
+  $("#formMessage").val("");
 }

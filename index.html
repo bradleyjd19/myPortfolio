@@ -35,8 +35,8 @@
 
 	<div class="container" id="container-pages">
 		<div class="row">
-			<div class="col-md-12">
-				<div class="collapse" id="aboutPage">
+			<div class="col-md-10 offset-1">
+				<div class="collapse" id="aboutPage" data-parent="#container-pages">
 					<img id="profile" src="./assets/images/profile.jpg" alt="Joshua Bradley Profile Pic">
 					<p id="profile-text">Joshua Bradley is a resourceful laboratory professional and aspiring Full Stack Developer
 						with over eleven
@@ -65,8 +65,8 @@
 		</div>
 
 		<div class="row">
-			<div class="col-md-12">
-				<div class="collapse" id="projectsPage">
+			<div class="col-md-10 offset-1">
+				<div class="collapse" id="projectsPage" data-parent="#container-pages">
 					<div id="project-carousel" class="carousel slide" data-ride="carousel">
 						<ol class="carousel-indicators">
 							<li data-target="#project-carousel" data-slide-to="0" class="active"></li>
@@ -122,9 +122,18 @@
 			</div>
 		</div>
 		<div class="row">
-			<div class="col-md-12">
-				<div class="collapse" id="contactPage">
-					Contact.
+			<div class="col-md-10 offset-1">
+				<div class="collapse" id="contactPage" data-parent="#container-pages">
+					<form method="post" action="mailto:bradleyjd19@gmail.com">
+						Name<br>
+						<input id="formName" type="text" name="user name" placeholder=" Name" required="required"><br>
+						Email<br>
+						<input id="formEmail" type="email" name="email" placeholder=" username@email.com" required="required"><br>
+						Message<br>
+						<!-- Textarea tag allows for resizable text box -->
+						<textarea id="formMessage" name="message" placeholder=" Type message here" required="required"></textarea>
+						<input id="formSubmit" type="submit" value="Submit">
+					</form>
 				</div>
 			</div>
 		</div>
@@ -153,7 +162,7 @@
 				<h1 id="intro">
 					<div id="preName">My name is </div>
 					<div id="name">Joshua Bradley</div>
-					<div id="postName"> I'm a Web Developer and a Problem-Solver.</div>
+					<div id="postName"> I'm a Web Developer and I solve problems.</div>
 				</h1>
 			</div>
 		</div>
