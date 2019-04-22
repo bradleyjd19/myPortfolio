@@ -26,3 +26,11 @@ function fadeout() {
 function showLinks() {
   document.getElementById("container-header").style.opacity = "1";
 }
+
+$(document).on("click", "#projects", hideTags);
+
+function hideTags() {
+  $("#tagline1").hide();
+  $("#tagline2").hide();
+  $("#tagline3").hide();
+}

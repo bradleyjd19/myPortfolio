@@ -24,7 +24,7 @@ body {
 
 #row-intro {
   text-align: center;
-  margin-top: 40px;
+  margin-top: 50px;
 }
 
 #tagline1,
@@ -39,6 +39,8 @@ body {
   font-size: 28px;
   color: white;
 }
+
+
 
 #container-header {
   overflow: hidden;
@@ -80,7 +82,8 @@ button:focus {
   width: 200px;
   height: 200px;
   margin-top: 10px;
-  margin-right: 25px;
+  margin-right: 20px;
+  border: 3px solid white;
 }
 
 #profile-text {
@@ -96,6 +99,7 @@ button:focus {
 .fa-angle-left,
 .fa-angle-right {
   color: red;
+  font-size: 30px;
 }
 
 .carousel-indicators li {
