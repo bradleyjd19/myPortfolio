@@ -1,3 +1,3 @@
 # myPortfolio
 
-Deployed on Heroku at https://jbdevelopment.herokuapp.com/
+Deployed at www.jbdevelopment.co
