@@ -1,0 +1,20 @@
+#navbar{
+  background-color: rgba(96, 125, 139, 0.0);
+}
+
+#logo {
+  height: 50px;
+  width: 50px;
+  margin-left: 2rem;
+}
+
+#toggle {
+  background-color: white;
+  border: 1px solid black;
+}
+
+#navlink {
+  color: white;
+  font-size: 1.3rem;
+  padding: 0 2rem;
+}
