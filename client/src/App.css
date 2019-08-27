@@ -6,13 +6,23 @@
   margin-top: 15vh;
 }
 
+#projectsContainer,
+#aboutContainer {
+  margin-top: 25vh;
+}
+
 #tagline1,
 #repeat,
-#intro {
+#intro,
+#bio {
   color: white;
   font-weight: bold;
   font-size: 1.5rem;
   margin: 2rem 2rem;
+}
+
+#intro {
+  margin: 2rem 1rem;
 }
 
 #tagline1 {
@@ -20,26 +30,69 @@
 }
 
 #repeat {
-  margin-bottom: 6rem;
+  margin-bottom: 11rem;
 }
 
 #intro,
 #name {
   text-align: center;
+  float: left;
 }
 
 #name {
   font-size: 4rem;
   font-weight: bold;
+  color: white;
+}
+
+.carousel-indicators li {
+  background-color: #577284;
   margin: 0 1rem;
-  color: #83C7FF;
-  text-decoration: underline;
-} 
+}
+
+h2 {
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+  font-size: 1.4rem;
+}
+
+#labaid,
+#chorz,
+#complement,
+#giftastic,
+#trivia,
+#crystals,
+#codeBlock {
+  text-align: center;
+  margin-top: 0.6rem;
+}
+
+#title {
+  font-size: 1.5rem;
+}
+
+#codeBlock {
+  font-size: 1.2px;
+  margin-bottom: 5rem;
+}
+
+@media only screen and (max-width: 1000px) {
+
+  #repeat {
+    margin-bottom: 7rem;
+  }
+
+  #intro,
+  #name {
+    float: none;
+  }
+
+}
 
 @media only screen and (max-width: 600px) {
 
   #taglineContainer {
-    margin-top: 20vh;
+    margin-top: 15vh;
   }
 
   #tagline1,
@@ -52,16 +105,16 @@
   }
 
   #repeat {
-    margin-bottom: 6rem;
+    margin-bottom: 7rem;
   }
 
   #intro,
-  #name {    
-    text-align: center;
+  #name {
+    float: none;
   }
 
   #name {
-    font-size: 2rem;
+    font-size: 2.5rem;
   }
 
 }
