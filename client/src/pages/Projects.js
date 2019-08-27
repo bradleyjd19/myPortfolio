@@ -44,6 +44,8 @@ class Projects extends Component {
               <Carousel.Caption style={infoBlock}>
                 <h2>LabAid</h2>
                 <p>A daily management system for the laboratory</p>
+                <p><a href="www.labaid.co" target="_blank" rel="noopener noreferrer">Demo</a></p>
+                <p><a href="https://bradleyjd19.github.io/labaid-info/" target="_blank" rel="noopener noreferrer">Info</a></p>
               </Carousel.Caption>
               <h1 style={spacing}> </h1>
             </Carousel.Item>
@@ -57,6 +59,8 @@ class Projects extends Component {
               <Carousel.Caption style={infoBlock}>
                 <h2>Chorz</h2>
                 <p>An app for tracking chores around the house</p>
+                <p><a href="https://chorzapp.herokuapp.com/" target="_blank" rel="noopener noreferrer">Demo</a></p>
+                <p><a href="https://github.com/hergins1/chores" target="_blank" rel="noopener noreferrer">Code</a></p>
               </Carousel.Caption>
               <h1 style={spacing}> </h1>
             </Carousel.Item>
@@ -70,6 +74,8 @@ class Projects extends Component {
               <Carousel.Caption style={infoBlock}>
                 <h2>Complement</h2>
                 <p>A food and beer pairing app</p>
+                <p><a href="https://bradleyjd19.github.io/Complement/" target="_blank" rel="noopener noreferrer">Demo</a></p>
+                <p><a href="https://github.com/bradleyjd19/Complement" target="_blank" rel="noopener noreferrer">Code</a></p>
               </Carousel.Caption>
               <h1 style={spacing}> </h1>
             </Carousel.Item>
@@ -83,6 +89,8 @@ class Projects extends Component {
               <Carousel.Caption style={infoBlock}>
                 <h2>NCAA Giftastic</h2>
                 <p>Gifs and fun for college basketball fans</p>
+                <p><a href="https://bradleyjd19.github.io/GifTastic/" target="_blank" rel="noopener noreferrer">Demo</a></p>
+                <p><a href="https://github.com/bradleyjd19/GifTastic" target="_blank" rel="noopener noreferrer">Code</a></p>
               </Carousel.Caption>
               <h1 style={spacing}> </h1>
             </Carousel.Item>
@@ -96,6 +104,8 @@ class Projects extends Component {
               <Carousel.Caption style={infoBlock}>
                 <h2>March Madness Trivia</h2>
                 <p>A fun quiz for NCAA tournament fans</p>
+                <p><a href="https://bradleyjd19.github.io/TriviaGame/" target="_blank" rel="noopener noreferrer">Demo</a></p>
+                <p><a href="https://github.com/bradleyjd19/TriviaGame" target="_blank" rel="noopener noreferrer">Code</a></p>
               </Carousel.Caption>
               <h1 style={spacing}> </h1>
             </Carousel.Item>
@@ -109,6 +119,8 @@ class Projects extends Component {
               <Carousel.Caption style={infoBlock}>
                 <h2>Crystal Caverns</h2>
                 <p>A Number Guessing Game</p>
+                <p><a href="https://bradleyjd19.github.io/Unit-4-Game/" target="_blank" rel="noopener noreferrer">Demo</a></p>
+                <p><a href="https://github.com/bradleyjd19/Unit-4-Game" target="_blank" rel="noopener noreferrer">Code</a></p>
               </Carousel.Caption>
               <h1 style={spacing}> </h1>
             </Carousel.Item>
