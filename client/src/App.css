@@ -1,0 +1,67 @@
+#taglineContainer {
+  margin-top: 20vh;
+}
+
+#contactContainer {
+  margin-top: 15vh;
+}
+
+#tagline1,
+#repeat,
+#intro {
+  color: white;
+  font-weight: bold;
+  font-size: 1.5rem;
+  margin: 2rem 2rem;
+}
+
+#tagline1 {
+  float: left;
+}
+
+#repeat {
+  margin-bottom: 6rem;
+}
+
+#intro,
+#name {
+  text-align: center;
+}
+
+#name {
+  font-size: 4rem;
+  font-weight: bold;
+  margin: 0 1rem;
+  color: #83C7FF;
+  text-decoration: underline;
+} 
+
+@media only screen and (max-width: 600px) {
+
+  #taglineContainer {
+    margin-top: 20vh;
+  }
+
+  #tagline1,
+  #repeat,
+  #intro {
+    font-size: 1.4rem;
+    margin: 1rem 1rem;
+    float: none;
+    text-align: center;
+  }
+
+  #repeat {
+    margin-bottom: 6rem;
+  }
+
+  #intro,
+  #name {    
+    text-align: center;
+  }
+
+  #name {
+    font-size: 2rem;
+  }
+
+}

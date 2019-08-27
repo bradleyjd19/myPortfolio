@@ -1,17 +1,42 @@
 import React, { Component } from "react";
-import Header from "../components/Navbar";
-import Footer from "../components/Footer";
 
 class Home extends Component {
 
 
   render() {
-    
+
     return (
       <div>
-        <Header />
-        <Footer />
-      </div>
+
+        <div className="container d-flex justify-content-center" id="taglineContainer">
+          <div className="row">
+            <div className="column">
+              <div id="tagline1">Analyze.</div>
+              <div id="tagline1">Adapt.</div>
+              <div id="tagline1">Resolve.</div>
+            </div>
+          </div>
+        </div>
+
+        <div className="container d-flex justify-content-center" id="repeatContainer">
+          <div className="row">
+            <div className="column">
+              <div id="repeat">Repeat.</div>
+            </div>
+          </div>
+        </div>
+
+        <div className="container d-flex justify-content-center" id="introContainer">
+          <div className="row">
+            <div className="column">
+              <div id="intro">My name is </div>
+              <div id="name">Joshua Bradley</div>
+              <div id="intro"> and I solve problems.</div>
+            </div>
+          </div>
+        </div>
+
+      </div >
 
     )
   }

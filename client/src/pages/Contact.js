@@ -41,11 +41,10 @@ class Contact extends Component {
 
   render() {
     return (
-      <div className="containerNote">
+      <div className="container d-flex justify-content-center" id="contactContainer">
 
-        <h3 className="mt-4 mb-4">Contact</h3>
         <div className="row mt-4">
-          <div className="col-md-10">
+          <div className="column">
             <form method="post">
               <Input
                 label="Email"
