@@ -44,7 +44,7 @@ class Projects extends Component {
               <Carousel.Caption style={infoBlock}>
                 <h2>LabAid</h2>
                 <p>A daily management system for the laboratory</p>
-                <p><a href="www.labaid.co" target="_blank" rel="noopener noreferrer">Demo</a></p>
+                <p><a href="http://www.labaid.co" target="_blank" rel="noopener noreferrer">Demo</a></p>
                 <p><a href="https://bradleyjd19.github.io/labaid-info/" target="_blank" rel="noopener noreferrer">Info</a></p>
               </Carousel.Caption>
               <h1 style={spacing}> </h1>
