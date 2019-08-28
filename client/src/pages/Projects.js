@@ -52,21 +52,6 @@ class Projects extends Component {
             <Carousel.Item>
               <img
                 className="d-block"
-                src={require("../images/chorz.png")}
-                alt="Chorz"
-                style={imageBlock}
-              />
-              <Carousel.Caption style={infoBlock}>
-                <h2>Chorz</h2>
-                <p>An app for tracking chores around the house</p>
-                <p><a href="https://chorzapp.herokuapp.com/" target="_blank" rel="noopener noreferrer">Demo</a></p>
-                <p><a href="https://github.com/hergins1/chores" target="_blank" rel="noopener noreferrer">Code</a></p>
-              </Carousel.Caption>
-              <h1 style={spacing}> </h1>
-            </Carousel.Item>
-            <Carousel.Item>
-              <img
-                className="d-block"
                 src={require("../images/complement.jpg")}
                 alt="Complement"
                 style={imageBlock}
