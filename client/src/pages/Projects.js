@@ -17,7 +17,7 @@ class Projects extends Component {
       backgroundColor: "#577284",
       margin: "0 auto",
       padding: "0.8rem",
-      width: "30rem",
+      width: "70%",
       border: "2px solid white"
     }
 
@@ -46,6 +46,21 @@ class Projects extends Component {
                 <p>A daily management system for the laboratory</p>
                 <p><a href="http://www.labaid.co" target="_blank" rel="noopener noreferrer">Demo</a></p>
                 <p><a href="https://bradleyjd19.github.io/labaid-info/" target="_blank" rel="noopener noreferrer">Info</a></p>
+              </Carousel.Caption>
+              <h1 style={spacing}> </h1>
+            </Carousel.Item>
+            <Carousel.Item>
+              <img
+                className="d-block"
+                src={require("../images/letterkenny.jpg")}
+                alt="Letterkenny Click"
+                style={imageBlock}
+              />
+              <Carousel.Caption style={infoBlock}>
+                <h2>Letterkenny Click Game</h2>
+                <p>A Letterkenny-themed memory game</p>
+                <p><a href="https://letterkennyclick.herokuapp.com/" target="_blank" rel="noopener noreferrer">Demo</a></p>
+                <p><a href="https://github.com/bradleyjd19/clicky-game" target="_blank" rel="noopener noreferrer">Code</a></p>
               </Carousel.Caption>
               <h1 style={spacing}> </h1>
             </Carousel.Item>
