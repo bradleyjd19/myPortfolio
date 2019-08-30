@@ -13,7 +13,8 @@
 
 #tagline1,
 #repeat,
-#intro,
+#intro1,
+#intro2,
 #bio {
   color: white;
   font-weight: bold;
@@ -21,7 +22,8 @@
   margin: 2rem 2rem;
 }
 
-#intro {
+#intro1,
+#intro2 {
   margin: 2rem 1rem;
 }
 
@@ -33,8 +35,9 @@
   margin-bottom: 11rem;
 }
 
-#intro,
-#name {
+#intro1,
+#name,
+#intro2 {
   text-align: center;
   float: left;
 }
@@ -51,20 +54,22 @@
 }
 
 h2 {
-  margin-bottom: 0.5rem;
   font-weight: bold;
   font-size: 1.4rem;
 }
 
-#labaid,
-#chorz,
-#complement,
-#giftastic,
-#trivia,
-#crystals,
-#codeBlock {
-  text-align: center;
-  margin-top: 0.6rem;
+h2,
+p {
+  margin-bottom: 0.5rem;
+}
+
+#codeLink {
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+#codeLink:hover {
+  color: rgb(197, 197, 197);
 }
 
 #title {
@@ -82,8 +87,9 @@ h2 {
     margin-bottom: 7rem;
   }
 
-  #intro,
-  #name {
+  #intro1,
+  #name,
+  #intro2 {
     float: none;
   }
 
@@ -91,13 +97,16 @@ h2 {
 
 @media only screen and (max-width: 600px) {
 
-  #taglineContainer {
+  #taglineContainer,
+  #aboutContainer,
+  #projectsContainer {
     margin-top: 15vh;
   }
 
   #tagline1,
   #repeat,
-  #intro {
+  #intro1,
+  #intro2 {
     font-size: 1.4rem;
     margin: 1rem 1rem;
     float: none;
@@ -105,16 +114,21 @@ h2 {
   }
 
   #repeat {
-    margin-bottom: 7rem;
+    margin-bottom: 5rem;
   }
 
-  #intro,
-  #name {
+  #intro1,
+  #name,
+  #intro2 {
     float: none;
   }
 
   #name {
     font-size: 2.5rem;
+  }
+
+  #intro2 {
+    margin-bottom: 5rem;
   }
 
 }

@@ -29,9 +29,9 @@ class Home extends Component {
         <div className="container d-flex justify-content-center" id="introContainer">
           <div className="row">
             <div className="column">
-              <div id="intro">My name is </div>
+              <div id="intro1">My name is </div>
               <div id="name">Joshua Bradley</div>
-              <div id="intro"> and I solve problems.</div>
+              <div id="intro2"> and I solve problems.</div>
             </div>
           </div>
         </div>
