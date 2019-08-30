@@ -15,7 +15,8 @@
 #repeat,
 #intro1,
 #intro2,
-#bio {
+#bio,
+#bio2 {
   color: white;
   font-weight: bold;
   font-size: 1.5rem;
@@ -46,6 +47,12 @@
   font-size: 4rem;
   font-weight: bold;
   color: white;
+}
+
+#bioPic {
+  display: flex;
+  float: left;
+  margin-right: 5rem;
 }
 
 .carousel-indicators li {
@@ -83,25 +90,34 @@ p {
 
 @media only screen and (max-width: 1000px) {
 
+  #taglineContainer,
+  #aboutContainer,
+  #projectsContainer {
+    margin-top: 15vh;
+  }
+  
   #repeat {
     margin-bottom: 7rem;
   }
 
   #intro1,
   #name,
-  #intro2 {
+  #intro2,
+  #bioPic {
     float: none;
+  }
+
+  #bioPic {
+    margin: 0 auto;
+  }
+
+  #bio2 {
+    margin-bottom: 7rem;
   }
 
 }
 
 @media only screen and (max-width: 600px) {
-
-  #taglineContainer,
-  #aboutContainer,
-  #projectsContainer {
-    margin-top: 15vh;
-  }
 
   #tagline1,
   #repeat,
@@ -128,7 +144,7 @@ p {
   }
 
   #intro2 {
-    margin-bottom: 5rem;
+    margin-bottom: 7rem;
   }
 
 }
